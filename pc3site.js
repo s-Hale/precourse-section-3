@@ -1,21 +1,21 @@
 $(document).ready(function() {
 
     $("#aboutClick").on("click", function() {
-        $("#about").removeClass("hidden").siblings().addClass('hidden');
+        $("#about").removeClass("hidden").hide().fadeIn(800).siblings().addClass('hidden');
     });
     $("#galleryClick").on("click", function() {
-        $("#gallery").removeClass("hidden").siblings().addClass('hidden');
+        $("#gallery").removeClass("hidden").hide().fadeIn(800).siblings().addClass('hidden');
     });
     $("#foodClick").on("click", function() {
-        $("#food").removeClass("hidden").siblings().addClass('hidden');
+        $("#food").removeClass("hidden").hide().fadeIn(800).siblings().addClass('hidden');
     });
     $("#eventsClick").on("click", function() {
-        $("#events").removeClass("hidden").siblings().addClass('hidden');
+        $("#events").removeClass("hidden").hide().fadeIn(800).siblings().addClass('hidden');
     });
     $("#contactClick").on("click", function() {
-        $("#contact").removeClass("hidden").siblings().addClass('hidden');
+        $("#contact").removeClass("hidden").hide().fadeIn(800).siblings().addClass('hidden');
     });
     $("#reservationsClick").on("click", function() {
-        $("#reservations").removeClass("hidden").siblings().addClass('hidden');
+        $("#reservations").removeClass("hidden").hide().fadeIn(800).siblings().addClass('hidden');
     });
 });
