@@ -29,6 +29,16 @@ body {
     margin-left: 2em;
 }
 
+.line {
+    width: 80%;
+    border-top: 5px solid black;
+}
+
+.fa {
+    margin-right: 0.8em;
+    font-size: 1.8em;
+}
+
 #coffee {
     font-size: 3.5em;
 }
@@ -51,24 +61,50 @@ li:hover {
     opacity: 0.5;
 }
 
+#contact,
+#reservations,
+#events,
+#food,
+#about {
+    padding: 1.5em;
+}
+
 #about {
     font-size: 1.1em;
+    line-height: 2em;
 }
 
 #about p {
     margin-bottom: 1em;
 }
 
-h3 {
-    font-size: 1.4em;
+#strong {
+    font-size: 2em;
 }
 
-.date {
+.menuheadings {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 0.7em 0 0.5em 0;
+}
+
+#food {
     font-size: 1.1em;
+    line-height: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin: 0.5em 0 0.5em 0;
+}
+
+#events {
+    line-height: 1.8em;
 }
 
 #contact {
-    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.8em;
 }
 
 #barName {
@@ -99,11 +135,12 @@ h3 {
 
 a#galImg {
     width: calc(40% - 4px);
+    margin: 0.5em;
     opacity: 1;
 }
 
 a#galImg:hover {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .galleryactual img {

@@ -3,7 +3,9 @@
 <head>
     <title>generic coffee shop</title>
     <link href="https://fonts.googleapis.com/css?family=Anton|Jura" rel="stylesheet">
+    <script src="https://use.fontawesome.com/2a1283cb02.js"></script>
     <link href="pc3site.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 
@@ -24,6 +26,9 @@
                 <li id='reservationsClick'>RESERVATIONS</li>
             </ul>
             <div class="line"></div>
+            <div id="socialMedia">
+                <i class="fa fa-facebook-square"></i><i class="fa fa-instagram"></i><i class="fa fa-twitter"></i><i class="fa fa-snapchat"></i><i class="fa fa-tripadvisor"></i>
+            </div>
         </div>
         <div class='wrapper' id='rightSection'>
 
@@ -100,16 +105,44 @@
                     <p>Tue - Sun</p>
                     <p>12.00 - 11.00</p>
                 </div>
-                <p>To make a reservation call 555-8723 or email<br>reservation at generic dot com</p>
+                <p>for all enquiries call 555-8723 or email<br>generica at generic dot com</p>
             </div>
-            <div class="hidden" id="reservations">reserve here
+            <div class="hidden" id="reservations">
+                <div class="menusContainer">
+                    <div class='menuType'>
+                        <select id="branchMenu">
+                                   <option value="" disabled selected>select branch</option>
+                                   <option value="boston">boston</option>
+                                   <option value="oregon">oregon</option>
+                                   <option value="colorado">colorado</option>
+                                </select>
+                    </div>
+                    <div class="guests">
+                        <select id="numoguests">
+                              <option value="" disabled selected>number of guests</option>
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5+">5 or more</option>
+                            </select>
+                    </div>
+                    <div class="arrvDate">
+                        <form>on:
+                            <input type="date" id="chosenday">
+                        </form>
+                    </div>
+                    <button id="searchButton">search</button>
+                </div>
+
             </div>
-
-
-
         </div>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script type="text/javascript" src="pc3site.js"></script>
+
+
+
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="pc3site.js"></script>
 </body>
 
 </html>
