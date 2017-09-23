@@ -5,9 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Anton|Jura" rel="stylesheet">
     <script src="https://use.fontawesome.com/2a1283cb02.js"></script>
     <link href="pc3site.css" rel="stylesheet" type="text/css" />
-
 </head>
-
 
 <body>
     <div class="flexWrap">
@@ -27,7 +25,8 @@
             </ul>
             <div class="line"></div>
             <div id="socialMedia">
-                <i class="fa fa-facebook-square"></i><i class="fa fa-instagram"></i><i class="fa fa-twitter"></i><i class="fa fa-snapchat"></i><i class="fa fa-tripadvisor"></i>
+                <i class="fa fa-facebook-square"></i><i class="fa fa-instagram"></i><i class="fa fa-twitter"></i><i class="fa fa-snapchat"></i>
+                <i class="fa fa-tripadvisor"></i>
             </div>
         </div>
         <div class='wrapper' id='rightSection'>
@@ -70,11 +69,9 @@
                 <p>Pig mollit alcatra sunt cillum cupim qui pancetta excepteur porchetta swine in anim.</p>
                 <p> Cronut banh mi man bun, brooklyn viral gentrify fashion.</p>
                 <p>Pork loin tongue mollit, sirloin aliquip corned beef id sunt laboris sed minim.</p>
-
                 <p class="menuheadings">Sides</p>
                 <p>8-bit kale chips, slow-carb.</p>
                 <p>Helvetica portland affogato, post-ironic swag chillwave.</p>
-
                 <p class="menuheadings">Drinks</p>
                 <p>Pug mumblecore authentic, freegan readymade paleo.</p>
                 <p>Quinoa chambray selvage, viral irony microdosing.</p>
@@ -82,8 +79,6 @@
                 <p class="menuheadings">Cocktails</p>
                 <p>Organic williamsburg taxidermy.</p>
                 <p>Umami dreamcatcher.</p>
-
-
             </div>
 
             <div class="hidden" id="events">
@@ -99,14 +94,18 @@
             </div>
 
             <div class="hidden" id="contact">
-                <p id='barName'>generic bar and restaurant</p>
-                <p>keswick creek mill, breighfare, boston, 44567</p>
+                <div class='addressRow'>
+                    <p class='address'>7873 hamilton way<br>toledo<br>boston<br>43612</p>
+                    <p class='address' id='center'>93 iroquois drive<br> new haven oregon<br>36067</p>
+                    <p class='address'>468 pinecreek lane<br>bay shore<br>colorado<br>11706</p>
+                </div>
                 <div id='daysOWeek'>
                     <p>Tue - Sun</p>
                     <p>12.00 - 11.00</p>
+                    <p id='enquiries'>for all enquiries call 555-8723 or email<br>generica at generic dot com</p>
                 </div>
-                <p>for all enquiries call 555-8723 or email<br>generica at generic dot com</p>
             </div>
+
             <div class="hidden" id="reservations">
                 <div class="menusContainer">
                     <div class='menuType'>
@@ -115,7 +114,7 @@
                                    <option value="boston">boston</option>
                                    <option value="oregon">oregon</option>
                                    <option value="colorado">colorado</option>
-                                </select>
+                        </select>
                     </div>
                     <div class="guests">
                         <select id="numoguests">
@@ -125,7 +124,7 @@
                               <option value="3">3</option>
                               <option value="4">4</option>
                               <option value="5+">5 or more</option>
-                            </select>
+                        </select>
                     </div>
                     <div class="arrvDate">
                         <form>on:
@@ -135,12 +134,8 @@
                     <button id="searchButton">search</button>
                     <p class="resultJSstring"></p>
                 </div>
-
             </div>
         </div>
-
-
-
     </div>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="pc3site.js"></script>
