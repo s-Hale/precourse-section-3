@@ -78,3 +78,35 @@ h3 {
 #daysOWeek {
     font-size: 1.3em;
 }
+
+.menuheadings {
+    font-size: 1.4em;
+}
+
+#food {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    margin-top: 2em;
+}
+
+.galleryactual {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+a#galImg {
+    width: calc(40% - 4px);
+    opacity: 1;
+}
+
+a#galImg:hover {
+    opacity: 0.6;
+}
+
+.galleryactual img {
+    border: none;
+    max-width: 100%;
+}
